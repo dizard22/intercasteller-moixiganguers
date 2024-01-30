@@ -20,6 +20,7 @@ a {
 .btn:hover {
     color: #000;
     background: #fff;
+    border: 1.5px solid #fff;
 }
 
 .accordion {
@@ -149,13 +150,26 @@ a {
     bottom: 0;
 }
 
+
 .hero-text h2 {
-    font-size: 1.25rem;
     position: absolute;
-    left: 2.5rem;
-    top: 2.5rem;
-    margin-right: 1rem;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 9rem;
+    font-size: 3rem;
+    color: #503847;
+    text-shadow: 1px 1px black;
 }
+
+/*.hero-text h2 {*/
+/*    font-size: 1.25rem;*/
+/*    position: absolute;*/
+/*    left: 2.5rem;*/
+/*    top: 2.5rem;*/
+/*    margin-right: 1rem;*/
+/*    color: #fff;*/
+/*}*/
 
 .hero-text ul {
     font-size: 0.75rem;
@@ -175,7 +189,7 @@ a {
 
 .hero-text {
     background: linear-gradient(
-            rgb(201 164 190 / 35%) 10%,
+            rgba(201, 164, 190, 0.35) 10%,
             rgb(89 64 92 / 25%) 86%,
             rgb(10 5 8 / 25%) 100%
     );
@@ -217,5 +231,12 @@ a {
 @media (max-width: 600px) {
     .btn {
         padding: 0.5rem 0.25rem;
+    }
+    .hero-text h2 {
+        left: 18%;
+        top: 43%;
+        font-size: 2rem;
+        width: 100%;
+        transform: none;
     }
 }
