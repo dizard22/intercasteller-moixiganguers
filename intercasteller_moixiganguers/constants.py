@@ -20,7 +20,7 @@ defenses = ["tore", "toxana", "roger", "julia", "compte", "manel"]
 migs = ["oscar", "guti", "ramon", "ortega", "ieta"]
 
 # Devanters
-devanters = ["david", "mili", "paula", "aleix", "antoniu", "carles"]
+devanters = ["david", "mili", "paula", "aleix", "antoniu"]
 
 # Seleccionadors
 seleccionadors = ["carles", "nel"]

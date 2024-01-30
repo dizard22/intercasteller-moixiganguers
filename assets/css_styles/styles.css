@@ -201,7 +201,7 @@ a {
 }
 
 
-@media (min-width: 1126px) {
+@media (min-width: 600px) {
     .sky,
     .hero-text {
         background-size: contain;
@@ -211,5 +211,11 @@ a {
 @media (min-width: 600px) {
     .accordion {
         justify-content: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .btn {
+        padding: 0.5rem 0.25rem;
     }
 }
